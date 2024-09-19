@@ -5,8 +5,8 @@
 trigger: none
 
 # Select your agent pool, where your agents are hosted.
-pool: kubernetes-self-hosted-agent
-
+pool:
+  vmImage: ubuntu-latest
 # Define stages  
 ## Stage 1  
 stages:
