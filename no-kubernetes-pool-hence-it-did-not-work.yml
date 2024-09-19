@@ -2,7 +2,8 @@
 #  Here's the sample YAML pipeline with added comments to explain each section #
 ################################################################################
 # Define the pipeline
-trigger: main
+trigger: 
+- main
 
 # Select your agent pool, where your agents are hosted.
 pool:
